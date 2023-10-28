@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, inital-
+        scale=1.0">
+        <title>Personal Website Development</title>
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <link rel="stylesheet" type="text/css" href="css/body.css">
+        <link rel="stylesheet" type="text/css" href="css/arrow.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <div class= "nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="https://github.com/RupertJonesSA" target="_blank">GITHUB</a></li>
+                    <li><a href="https://www.linkedin.com/in/sami-al-jamal/" target="_blank">LINKEDIN</a></li>
+                    <li><a href="">EMAIL</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>            
+        </nav>
+    <div class="text-box">
+        <h1>Sami Al-Jamal</h1>
+        <p>Aspiring Software Engineer</p>
+    </div>
+    <!-- Scroll Down Button -->
+    <a href="#about">
+        <div class="scroll-down"></div>
+    </a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>
+            I am a 18-year-old from Florida and I am currently a freshman studying Computer
+            Science at the University of Florida.<br><br>
+            I find my greatest inspiration in the elegant intricacies of AI, the exhilaration 
+            of competitive programming, and the transformative potential of data science. What 
+            fuels my ambition is the desire to pioneer innovative solutions, uncover the hidden insights 
+            in data, and push the boundaries of artificial intelligence.
+        </p>
+
+        <div class="row">
+            <div class="desc">
+                <!-- Add image -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project Section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <p>Description</p>
+
+        <div class="row">
+            <div class="project-col">
+                <div class="proj-image">
+                    <img src="pictures/Screenshot 2023-10-20 001744.png">
+                    <div class="layer">
+                        <h3>Learn More</h3>
+                    </div>
+                </div>
+                <div class="desc">
+                    <h3>AI Assistant</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="project-col">
+                <div class="proj-image">
+                    <img src="pictures/Screenshot 2023-10-20 001744.png">
+                    <div class="layer">
+                        <h3>Learn More</h3>
+                    </div>
+                </div>
+                <div class="desc">
+                    <h3>Ongoing</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="project-col">
+                <div class="proj-image">
+                    <img src="pictures/Screenshot 2023-10-20 001744.png">
+                    <div class="layer">
+                        <h3>Learn More</h3>
+                    </div>
+                </div>
+                <div class="desc">
+                    <h3>Ongoing</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript for Toggle Menu and Smooth Scroll-->
+    <script src="scripts/smoothScroll.js"></script>
+    <script src="scripts/body.js"></script>
+    </body>
+</html>
