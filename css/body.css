@@ -21,6 +21,7 @@
 }
 
 #about p{
+    width: 100vh;
     font-size: 20px; 
     line-height: 2; 
 }
@@ -102,7 +103,7 @@ h3{
 
 .layer:hover{
     background: #006400;
-    opacity: 0.5;
+    opacity: 0.8;
     
 }
 
@@ -132,4 +133,15 @@ h3{
     .row{
         flex-direction: column; 
     }
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 10px; 
+    font-weight: 600;
 }
